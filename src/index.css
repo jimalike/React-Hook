@@ -2,6 +2,10 @@ body {
   box-sizing: border-box;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
 
 * {
   padding: 0;
@@ -45,8 +49,14 @@ body {
   border: none;
 }
 
+.movie-lists {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.movie {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
 }
